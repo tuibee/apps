@@ -1,3 +1,0 @@
-org.springframework.dao.DuplicateKeyException: PreparedStatementCallback; SQL [insert into user_machine_error_log(log_id,user_id,machine_id,log_type,log_num1,log_num2,lrsj,lrzh,zt,bz,gxsj)values(?,?,?,?,?,?,?,?,?,?,?)]; Duplicate entry '20190805092309305' for key 'PRIMARY'; nested exception is com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry '20190805092309305' for key 'PRIMARY'
-	at org.springframework.jdbc.support.SQLErrorCodeSQLExceptionTranslator.doTranslate(SQLErrorCodeSQLExceptionTranslator.java:239)
-	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:73)
